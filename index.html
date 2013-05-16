@@ -1,25 +1,29 @@
+
 <!DOCTYPE html>
+
 <html>
 <head>
+    <title>Ganz7 | Wobbly</title>
 
-	<title>Ganz7 | Wobbly</title>
-
-	<link rel="stylesheet" type="text/css" href="css/wobbly.css">
-
-
-
+    <link href="css/wobble.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+    <body onload="main()" id="body">
 
-	<h2>Howdy hombre!</h2>
+    	<!---->
+        <div id='whatsthis'>
+        	<p id="head"><bdi id="big">W</bdi>obble.</p>
+
+            <span id="settings">
+                Gravity is <span id="GravityOn" class="setting"></span> <br/>
+            </span>
+        </div>
+
+        <canvas id="wobbleCanvas" oncontextmenu="return false;"></canvas>
 
 
-	<canvas id="wobbleCanvas" oncontextmenu="return false;"></canvas>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script src="js/sjquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
-	<!-- Loading scripts at the end-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"/>
-	<script src="js/jquery-ui.min.js"/>
-	<script src="js/wobble.js"/>
-
-</body>
+    </body>
 </html>

@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400);
+body {
+    width:  100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    background: #FFF;
+    color: #BBB;
+    overflow:hidden;
+
+}
+#head{
+    z-index: 1;
+    font-family: "Oxygen";
+    font-size: 20px;
+    color: #378EFF;
+}
+#big{
+    font-size: 25px;
+}
+
+#whatsthis {
+    z-index: 1;
+    padding: 10px;
+    margin-top: 0;
+    position: absolute;
+    font-family: "Oxygen";
+    font-size: 15px;
+}
+
+#wobbleCanvas {
+    margin-left: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
